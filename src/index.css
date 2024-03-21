@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{background-image:linear-gradient(rgba(255, 0, 0, 0.638), yellow)}
