@@ -18,7 +18,7 @@ function Hero() {
             OUR SERVICES ARE
           </p>
           <ReactTyped
-            className="md:text-4xl sm:4xl text-l font-bold md:pl-4 pl-2"
+            className="md:text-4xl sm:3xl text-l font-bold md:pl-4 pl-2"
             strings={[
               "DATA SCIENCE",
               "DATA VISUALIZATION",

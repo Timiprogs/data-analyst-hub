@@ -23,7 +23,7 @@ function About() {
       <img
         className="  bg block w-full  h-[300px] sm:h-[600px] rounded-lg "
         src={data}
-        alt=""
+        alt="there is a data image here"
       />
 
       <h2 className="font-bold text-3xl m-8 text-center"> Core Values </h2>

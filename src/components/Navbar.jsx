@@ -12,7 +12,11 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 m-auto max-w-[1240px] px-4 text-white ">
       <div className="">
-        <img className="w-36 h-44 rounded-full" src={Logo} />
+        <img
+          className="w-36 h-44 rounded-full"
+          src={Logo}
+          alt="there is a logo image here that needs to load"
+        />
       </div>
       <ul className="hidden md:flex">
         <NavLink
@@ -59,7 +63,11 @@ const Navbar = () => {
         }
       >
         <div className="">
-          <img className="w-24 sm:h-24 rounded-full m-4" src={Logo} />
+          <img
+            className="w-24 sm:h-24 rounded-full m-4"
+            src={Logo}
+            alt="a logo image is here"
+          />
         </div>
         <ul className="uppercase p-4 flex flex-col">
           <NavLink

@@ -12,7 +12,7 @@ function Cards() {
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
             src={Single}
-            alt=""
+            alt="there is a single icon image here"
           />
 
           <p className="text-center text-4xl font-bold text-blue-900">DATA</p>
@@ -33,7 +33,7 @@ function Cards() {
           <img
             className="w-20 mx-auto mt-[-3rem] bg-transparent"
             src={Double}
-            alt=""
+            alt="there is a double icon image here"
           />
 
           <p className="text-center text-4xl font-bold text-blue-900">
@@ -55,7 +55,7 @@ function Cards() {
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
             src={Triple}
-            alt=""
+            alt="there is a triple icon image here"
           />
 
           <p className="text-center text-4xl font-bold text-blue-900">HUB</p>
