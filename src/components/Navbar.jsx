@@ -55,11 +55,11 @@ const Navbar = () => {
         className={
           nav
             ? "fixed left-0 top-0 w-[60%] h-[60%]  bg-blue-900 rounded ease-in-out duration-500"
-            : "fixed left-[-100%] rounded "
+            : "fixed left-[-100%] "
         }
       >
         <div className="">
-          <img className="w-24 h-24 rounded-full m-4" src={Logo} />
+          <img className="w-24 sm:h-24 rounded-full m-4" src={Logo} />
         </div>
         <ul className="uppercase p-4 flex flex-col">
           <NavLink

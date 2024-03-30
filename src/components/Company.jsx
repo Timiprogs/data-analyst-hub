@@ -4,9 +4,11 @@ import company from "../assets/company.jpg";
 
 function Company() {
   return (
-    <div className="bg-white m-20 p-10 text-blue-900 ">
-      <h1 className="font-bold text-4xl mb-8 text-center">Our Company</h1>
-      <p className="p-4 rounded-lg font-sans text-xl border-solid border-2 border-indigo-600 ">
+    <div className="bg-white m-12 sm:m-20 p-2 sm:p-10 text-blue-900 ">
+      <h1 className="font-bold text-2xl sm:text-4xl mb-8 text-center">
+        Our Company
+      </h1>
+      <p className="p-4 rounded-lg font-sans text-l  sm:text-xl border-solid border-2 border-indigo-600 ">
         Welcome to Data Analyst Hub where innovation meets insight. As a
         cutting-edge research firm, we take pride in our commitment to
         unraveling the complexities of data and transforming it into actionable
@@ -21,13 +23,13 @@ function Company() {
       </p>
 
       <img
-        className=" block h-[700px] xs:h-[200px] mt-6 w-full rounded-lg"
+        className=" block h-[400px] sm:h-[700px] mt-6 w-full rounded-lg"
         src={company}
         alt="a company picture is here"
       />
 
       <h1 className="font-bold text-3xl m-8 text-center"> Our Services </h1>
-      <p className="font-sans text-xl border-solid border-4 border-indigo-600 rounded-lg">
+      <p className="font-sans text-l sm:text-xl border-solid border-4 border-indigo-600 rounded-lg">
         <ol className="p-4">
           <li className="py-2">
             <span className="font-bold mb-8">Data Science:</span> Unlock the

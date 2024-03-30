@@ -14,11 +14,11 @@ function Hero() {
           Data Analyst Hub.
         </h1>
         <div className="flex justify-center items-center bg-white rounded-lg m-4">
-          <p className="md:text-4xl sm:text-3xl text-xl font-bold py-4">
+          <p className="md:text-4xl sm:text-3xl text-l font-bold py-4">
             OUR SERVICES ARE
           </p>
           <ReactTyped
-            className="md:text-4xl sm:3xl text-xl font-bold md:pl-4 pl-2"
+            className="md:text-4xl sm:4xl text-l font-bold md:pl-4 pl-2"
             strings={[
               "DATA SCIENCE",
               "DATA VISUALIZATION",
@@ -34,7 +34,7 @@ function Hero() {
         </div>
 
         <p className="md:text-2xl text-xl font-bold text-white">
-          EXCELLENCT & AFFORDABLE SERVICE
+          EXCELLENCT & AFFORDABLE SERVICES
         </p>
         <button
           onClick={() => navigate("services")}

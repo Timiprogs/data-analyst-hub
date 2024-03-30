@@ -60,13 +60,13 @@ function Footer() {
         </div>
 
         <img
-          className="w-20 h-20 rounded-full  m-2"
+          className="w-10 sm:w-20 h-10 sm:h-20  rounded-full  m-2"
           src={Logo}
           alt="there is a logo here"
         />
 
-        <span className="font-bold">
-          <FaCopyright size={30} /> 2023 Designed by Timiprogs
+        <span className="font-bold text-sm">
+          <FaCopyright size={30} /> 2024 Designed by Timiprogs
         </span>
       </div>
     </div>

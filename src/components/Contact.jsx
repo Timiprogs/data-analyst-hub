@@ -20,21 +20,21 @@ function Contact() {
           placeholder=" Full Name"
           name="user_name"
           required
-          className=" block w-[400px] m-auto"
+          className=" block w-[200px] sm:w-[400px] m-auto"
         />
         <input
           type="email"
           placeholder=" Email "
           name="user_email"
           required
-          className="block w-[400px] my-8 mx-auto"
+          className="block w-[200px] sm:w-[400px] my-8 mx-auto"
         />
         <input
           type="text"
           placeholder=" Subject"
           name="subject"
           required
-          className="my-8 mx-auto block w-[400px]"
+          className="my-8 mx-auto block w-[200px] sm:w-[400px]"
         />
         <textarea
           name="message"
@@ -49,14 +49,19 @@ function Contact() {
         >
           Send Message
         </button>
-        <p className="text-white font-bold sm"> Daniella Ojekere</p>
-        <p className="text-white font-bold sm">
+        <p className="text-white font-bold text-sm leading-4">
+          {" "}
+          Daniella Ojekere
+        </p>
+        <p className="text-white font-bold text-sm">
           Data Scientist Data Analyst Hub
         </p>
-        <p className="text-white font-bold sm">
+        <p className="text-white font-bold sm leading-4">
           Chief Technical Officer : Transport Aid Initiative
         </p>
-        <p className="text-white font-bold text-sm">Contact: +2348114547997 </p>
+        <p className="text-white font-bold text-sm ">
+          Contact: +2348114547997{" "}
+        </p>
       </form>
     </div>
   );
