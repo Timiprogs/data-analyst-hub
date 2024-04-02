@@ -52,13 +52,16 @@ const Navbar = () => {
           Contact
         </NavLink>
       </ul>
-      <div onClick={handleNav} className="bg-blue-900 block md:hidden ">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      <div
+        onClick={handleNav}
+        className="bg-blue-900 p-2 hover:bg-blue-500 block md:hidden "
+      >
+        {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </div>
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-[60%]  bg-blue-900 rounded ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-[80%]  bg-blue-900 rounded ease-in-out duration-500"
             : "fixed left-[-100%] "
         }
       >
