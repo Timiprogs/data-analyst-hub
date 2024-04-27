@@ -20,28 +20,28 @@ function Contact() {
           placeholder=" Full Name"
           name="user_name"
           required
-          className=" block w-[200px] sm:w-[400px] m-auto"
+          className=" block w-[240px] sm:w-[600px] m-auto py-2 placeholder:pl-4"
         />
         <input
           type="email"
           placeholder=" Email "
           name="user_email"
           required
-          className="block w-[200px] sm:w-[400px] my-8 mx-auto"
+          className="block w-[240px] sm:w-[600px] my-8 mx-auto py-2 placeholder:pl-4"
         />
         <input
           type="text"
           placeholder=" Subject"
           name="subject"
           required
-          className="my-8 mx-auto block w-[200px] sm:w-[400px]"
+          className="my-8 mx-auto block w-[240px] sm:w-[600px] py-2 placeholder:pl-4"
         />
         <textarea
           name="message"
           cols="30"
           rows="10"
           placeholder="Type your mail here"
-          className="my-8 mx-auto md:w-[600px] sm:w-[150px] block text-blue"
+          className="my-8 mx-auto md:w-[600px] sm:w-[150px] placeholder:pl-4 pt-4 block text-blue"
         ></textarea>
         <button
           type="submit"
@@ -59,9 +59,7 @@ function Contact() {
         <p className="text-white font-bold sm leading-4">
           Chief Technical Officer : Transport Aid Initiative
         </p>
-        <p className="text-white font-bold text-sm ">
-          Contact: +2348114547997{" "}
-        </p>
+        <p className="text-white font-bold text-sm">Contact: +2348114547997 </p>
       </form>
     </div>
   );

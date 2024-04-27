@@ -54,14 +54,14 @@ const Navbar = () => {
       </ul>
       <div
         onClick={handleNav}
-        className="bg-blue-900 p-2 hover:bg-blue-500 block md:hidden "
+        className="bg-blue-900 p-2 hover:bg-blue-500 fixed right-4 top-10 block md:hidden "
       >
         {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </div>
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-[80%]  bg-blue-900 rounded ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-[80%]  bg-blue-900 rounded ease-in-out duration-500 md:hidden"
             : "fixed left-[-100%] "
         }
       >
